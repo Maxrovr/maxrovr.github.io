@@ -3,5 +3,6 @@
         {% for item in site.data.footer %}
         <li><a href="{{item.link}}"><i class="{{ item.class }}"></i></a></li>
         {% endfor %}
+        <li>Copyright &#169; 2019-{{ site.time | date: '%Y' }} Rakshith Murukannappa</li>
     </ul>
 </footer>
